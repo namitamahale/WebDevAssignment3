@@ -1,0 +1,25 @@
+.cart_div {
+	float:left;
+        left: 1140px;
+        top: 23px;
+	font-weight:bold;
+	position:relative;
+	}
+.cart_div a {
+	color:#000;
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 16px;
+    color: White;
+    width: 18px;
+    height: 20px;
+    text-align: center;
+	}

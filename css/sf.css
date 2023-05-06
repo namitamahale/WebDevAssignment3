@@ -1,0 +1,93 @@
+body{
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+
+.container{
+width:50%;
+padding: 10px 15px 15px 20px;
+background: linear-gradient(to bottom, #ffffcc 0%, #ffff99 47%);
+color:Black;
+margin:auto;
+}
+
+fieldset{
+padding: 10px 15px 15px 20px;
+}
+
+legend{
+color:Orange;
+}
+
+h1{
+color:#ffffff;
+font-weight:bold;
+font-size: 40px;
+}
+
+input[type=text], input[type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #66ff99;
+  border: #4CAF50;
+  color: #ffffff;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+p{
+color:red;
+font-size: 14px;
+}
+
+button{
+background-color: #4CAF50;
+  border: solid black 1px;
+  color: white;
+  padding: 10px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+background-color: DarkGreen;
+  border: solid black 1px;
+  color: white;
+  padding: 10px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
